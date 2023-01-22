@@ -1,0 +1,27 @@
+.main-body {
+    width: 1100px;
+    background-color:  white;
+    padding: 20px;
+    margin: auto;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
+    padding-top: 120px;
+}
+
+.p1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.p2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-body img{
+    width: 800px;
+    margin-left: 150px;
+
+}
