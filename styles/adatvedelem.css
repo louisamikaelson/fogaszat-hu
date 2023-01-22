@@ -1,0 +1,17 @@
+.main-body {
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: white;
+    padding: 20px;
+}
+
+body {
+    padding-top: 130px;
+    background-color: rgb(153, 207, 210);
+    background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}

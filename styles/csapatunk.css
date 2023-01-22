@@ -1,0 +1,101 @@
+
+.main-body {
+    
+    background-color: rgb(91, 190, 195);
+    background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
+
+}
+
+.media-body {
+    text-align: center;
+    margin: auto;
+    width: 1200px;
+    
+}
+
+.foorvos {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border: 2px solid white;
+    margin-left: 450px;
+    margin-top: 20px;
+    background-color: white;
+  
+
+}
+
+.foorvos-box {
+    background-color: white;
+    margin-top: 20px;
+    width: 300px;
+    
+
+}
+
+.job-title {
+    font-size: 45px;
+    font-family: Helvetica;
+    color: white;
+    height: 40px;
+    margin-top: 100px;
+    
+}
+
+.line {
+    height: 20px;
+}
+
+.orvos-kep-img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.orvos-nev-text {
+    font-size: 21px;
+    font-family: Arial;
+
+}
+#foorvos-nev-text {
+    margin-bottom: 10px;
+}
+
+.foorvos-plusz {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: black;
+    font-family: Arial;
+}
+
+.orvos {
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.orvos-kep {
+    margin-top: 20px;
+}
+
+.dolgozok-row {
+    display: inline;
+}
+
+.big-pic {
+    height: 468px;
+    border: 2pc solid white;
+    margin-top: 50px;
+}
+
+.big-pic img {
+    width: 100%;
+}
+
+body {
+    padding-top: 120px;
+}

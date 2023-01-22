@@ -1,0 +1,163 @@
+
+.main-body {
+    display: block;
+    text-align: center;
+    
+}
+
+.main-content {
+    border: 2px solid white;
+    width: 1160px;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    background-color: rgb(188, 233, 239);
+    
+}
+
+
+.first {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial;
+    margin-top: 5px;
+}
+
+
+.second {
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.second-text {
+    font-size: 60px;
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.szedacio-text {
+    font-size: 20px;
+    font-family: Arial;
+    text-align: left;
+    background-color: rgb(188, 233, 239);
+    margin: auto;
+    width: 1165px;
+    padding: 20px;
+    
+}
+
+.video-row {
+    height: 300px;
+    margin-bottom: 0px;
+    width: 1200px;
+    background-color: rgb(209, 235, 233);
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.video1,
+.video2,
+.video3 {
+    display: inline;
+    width: 100px;
+    
+}
+
+.smart-guide {
+    border-top: 1px solid white;
+    width: 1165px;
+    padding: 20px;
+    height: 2500px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    
+    background-color: aliceblue;
+    background-image: linear-gradient(to right, rgb(181, 231, 237), rgb(195, 234, 236));
+}
+
+.smart-guide-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.smart-guide-title p {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.smart-guide-video {
+    margin-top: 5px;
+}
+
+.text1-main {
+    font-size: 30px;
+}
+
+.smart-guide-text2 {
+    text-align: left;
+}
+
+.bold-p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+li {
+    font-size: 23px;
+}
+
+.implant-pontok {
+    text-align: left;
+    display: inline-block;
+}
+
+.kulon-p {
+    font-size: 27px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.monitor-kep {
+    width: 300px;
+    display: inline-block;
+}
+
+.implantacio-kep {
+    display: inline-block;
+
+}
+
+.utolso-p {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.kozep {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.line{
+    height: 30px;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
+    padding-top: 120px;
+}

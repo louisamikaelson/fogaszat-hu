@@ -1,0 +1,44 @@
+body {
+    padding-top: 120px;
+    background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
+}
+
+* {
+    line-height: 1.5;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+
+
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    margin: 30px;
+}
+
+#map {
+    height: 500px;
+    width: 450px;
+    margin-right: 20px;
+
+}
+
+iframe {
+    height: 500px;
+    width: 450px;
+    margin-right: 20px;
+}
+
+.main-body {
+    width: 1300px;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+}

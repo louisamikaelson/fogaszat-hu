@@ -1,0 +1,38 @@
+
+
+.main-body {
+    background-color: white;
+    height: 800px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+video {
+    width: 1420px;
+    border: 2px solid white;
+
+}
+
+
+
+body {
+    width: 1425px;
+    background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
+    padding-top: 120px;
+}
+
+.szechenyi-2020 {
+    position: fixed;
+    display:block;
+    right: 0px;
+    bottom: 0px;
+    
+}
+
+.szechenyi-2020 img {
+    width: 214px;
+    height: 150px;
+}
+
+
