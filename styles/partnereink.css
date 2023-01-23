@@ -2,41 +2,47 @@
 
 .main-body {
     padding: 0 100px 20px 100px;
+    width: 80%;
+    margin: auto;
     
 }
 
 .media-content {
     display: inline-block;
     text-align: center;
-    padding: 10px;
+    padding: auto;
 
     
 }
 
 .media-img {
-    width: 204px;
+    width: 100%;
 }
 
 .media-container-row {
     display: inline;
-    width: 1200px;
-    height: 254px;
+    width: 100%;
+    height: auto;
     text-align: center;
+    margin: auto;
+
       
 }
 
 .media-container-row2 {
   display: inline;
-  width: 1200px;
-  height: 254px;
+  width: 100%;
+  height: auto;
   text-align: center;
-  padding-left: 110px;
+  margin: auto;
+
     
 }
 
 .nagy-text {
   font-size: 60px;
   text-align: center;
+  margin: auto;
 }
 
 .nagy-text-szoveg {
@@ -46,13 +52,18 @@
 .nagy-kep {
   text-align: center;
   margin: auto;
-  width: 768px;
-  border: 1px solid black;
-  height: 538px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .nagy-kep img {
   text-align: center;
+
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 body {

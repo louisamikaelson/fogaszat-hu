@@ -2,6 +2,9 @@
 .main-body {
     display: block;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
     
 }
 
@@ -11,7 +14,7 @@
     padding: 20px;
     padding-bottom: 10px;
     padding-top: 50px;
-    height: 300px;
+    height: auto;
     margin: auto;
     text-align: center;
     display: block;
@@ -32,7 +35,7 @@ p {
 
 
 .second {
-    height: 50px;
+    height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -42,7 +45,16 @@ p {
     font-family: Arial;
     margin-top: 0px;
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
+    text-align: center;
+
+}
+
+.sec-text-doboz {
+    margin: 30px auto 10px auto;
+
 }
 
 .szedacio-text {
@@ -57,7 +69,7 @@ p {
 }
 
 .video-row {
-    height: 300px;
+    height: auto;
     margin-bottom: 0px;
     width: 1200px;
     background-color: rgb(209, 235, 233);
@@ -79,7 +91,7 @@ p {
     border-top: 1px solid white;
     width: 1165px;
     padding: 20px;
-    height: 2500px;
+    height: auto;
     margin: auto;
     text-align: center;
     display: block;
@@ -108,6 +120,11 @@ p {
 
 .smart-guide-text2 {
     text-align: left;
+    height: auto;
+}
+
+.smart-guide-elonyok {
+    height: auto;
 }
 
 .bold-p {
@@ -123,6 +140,11 @@ li {
 .implant-pontok {
     text-align: left;
     display: inline-block;
+}
+
+.implantacio-folyamat {
+    height: auto;
+
 }
 
 .kulon-p {
@@ -159,5 +181,13 @@ li {
 
 body {
     background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
-    padding-top: 120px;
+    padding-top: 200px;
+    height: auto;
 }
+
+@media (max-width: 920px) {
+    body {
+        padding-top: 250px;
+    }
+      
+  }

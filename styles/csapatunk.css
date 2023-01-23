@@ -3,13 +3,16 @@
     
     background-color: rgb(91, 190, 195);
     background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
 .media-body {
     text-align: center;
     margin: auto;
-    width: 1200px;
+    width: auto;
+
     
 }
 
@@ -18,17 +21,19 @@
     height: 300px;
     text-align: center;
     border: 2px solid white;
-    margin-left: 450px;
+    
     margin-top: 20px;
     background-color: white;
+    margin: 20px auto 0px auto;
   
 
 }
 
 .foorvos-box {
     background-color: white;
-    margin-top: 20px;
+    margin: 20px auto 0px auto;
     width: 300px;
+    
     
 
 }
@@ -87,7 +92,7 @@
 }
 
 .big-pic {
-    height: 468px;
+    height: auto;
     border: 2pc solid white;
     margin-top: 50px;
 }

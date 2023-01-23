@@ -2,15 +2,19 @@
 
 .main-body {
     
-    padding: 10px 100px 10px 100px;
+    padding: 10px ;
     background-color: #d9f3f1;
-    width: 1000px;
+    width: 80%;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
 }
 
 .cim {
-    margin-top: 100px;
+    margin: auto;
     text-align: center;
+
 }
 
 .cim p {
@@ -27,38 +31,47 @@
 
 .media-container-row {
     display: inline;
-    width: 1200px;
-    height: 254px;
+    width: 100%;
+    height: auto;
+
+
 
 }
 
 .media-content {
-    display: inline-block;
-    vertical-align: middle;
+    display: inline;
+    width: 50%;
+
+
+
 }
 
 .media-content-cim {
-    width: 600px;
     font-size: 20px;
+    width: 60%;
+    display: inline-block;
+
+
 }
 
 .media-img {
-    width: 254px;
+    width: 30%;
+    display: inline-block;
+
 }
 
 
 
 
 .video-row {
-    height: 500px;
+    height: auto;
     margin-bottom: 0px;
-    width: 1000px;
+    width: 100%;
     background-color: rgb(209, 235, 233);
     margin-top: 20px;
-    
     text-align: center;
     padding: 5px;
-    
+
     
 }
 
@@ -74,6 +87,7 @@
 .hosszu-p {
     margin: 10px;
     padding: 0px;
+    width: 100%;
 }
 
 .hosszu-p-text {
@@ -81,45 +95,57 @@
 }
 
 #indent-row {
-    margin: 10px;
-    padding: 20px;
+  margin: 10px;
+  text-align: center;
+  
+
 }
 
 #indent-content {
-    width: 100px;
+    width: 60%;
+    display: inline;
 }
 
 #indent-content-cim {
-    width: 600px;
+    width: 60%;
     padding: 10px;
 }
 
 #kisebb-bek {
-  width: 500px;
-  padding: 10px;
-  padding-right: 20px;
+  text-align: center;
+  width: 100%;
+
+
 }
 
 .sinus-kep {
-    width: 547px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+
+
 }
 
 .in1a-kep {
-    width: 314px;
+    width: 30%;
 }
 
 .sima-p {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
+    display: block;
+    width: 100%;
 }
 
 .in3-kep {
-    width: 654px;
+    width: 40%;
+    display: inline-block;
     
 }
 
 .indent-content-cim2 {
-    width: 320px;
+    width: 50%;
+    display: inline-block;
     
 }
 
@@ -134,7 +160,6 @@
 
 #sima-szoveg {
     font-weight: 400;
-    width: 600px;
     margin-left: 20px;
 }
 
@@ -150,7 +175,7 @@
     margin-right: 1px;
     margin-bottom: 1px;
     text-align: center;
-    width: 1000px;
+    width: 100%;
   }
 
   

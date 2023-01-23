@@ -1,19 +1,21 @@
 
 
 .main-body {
-    height: 2300px;
+    height: auto;
     padding: 50px;
     background-color: rgb(219, 240, 240);
+    display: flex;
+    flex-wrap: wrap;
    
 }
 
 .big-pic {
-    width: 1409px;
+    width: 100%;
     
 }
 
 .big-pic img {
-    width: 1409px;
+    width: 100%;
 }
 
 .hosszu-p {
@@ -32,10 +34,11 @@
 .media-content {
     display: inline-block;
     vertical-align: middle;
+
 }
 
 .media-content-cim {
-    width: 750px;
+    width: 100%;
     font-size: 20px;
 }
 
@@ -45,7 +48,7 @@
 
 .media-container-row {
     display: inline;
-    width: 1200px;
+    width: 100%;
     height: 254px;
 
 }
@@ -222,4 +225,14 @@
     background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
     background-color: white;
     padding-top: 120px;
+  }
+
+  @media (max-width: 920px) {
+    .footer-box {
+        height: auto;
+        flex-direction: column;
+        margin: auto;
+        padding: auto;
+    }
+      
   }
