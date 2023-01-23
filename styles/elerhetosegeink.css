@@ -107,3 +107,9 @@ form button {
     font-size: 40px;
 
 }
+
+@media (max-width: 920px){
+    body {
+        padding-top: 265px;
+    }
+}

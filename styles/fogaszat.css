@@ -260,3 +260,10 @@ body {
     background-color: white;
     padding-top: 120px;
   }
+
+
+  @media (max-width: 920px){
+    body {
+        padding-top: 200px;
+    }
+}

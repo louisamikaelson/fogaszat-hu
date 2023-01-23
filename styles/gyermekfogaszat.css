@@ -236,3 +236,9 @@
     }
       
   }
+
+  @media (max-width: 920px){
+    body {
+        padding-top: 265px;
+    }
+}
