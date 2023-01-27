@@ -19,6 +19,7 @@
     text-align: center;
     display: block;
     background-color: rgb(188, 233, 239);
+    margin-bottom: 20px;
     
 }
 
@@ -43,8 +44,8 @@ p {
 .second-text {
     font-size: 60px;
     font-family: Arial;
-    margin-top: 0px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     color: white;
@@ -63,18 +64,21 @@ p {
     text-align: left;
     background-color: rgb(188, 233, 239);
     margin: auto;
-    width: 1165px;
+    width: 80%;
     padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid white;
     
 }
 
 .video-row {
     height: auto;
     margin-bottom: 0px;
-    width: 1200px;
+    width: 85%;
     background-color: rgb(209, 235, 233);
     margin-left: auto;
     margin-right: auto;
+
     
     
 }
@@ -88,14 +92,14 @@ p {
 }
 
 .smart-guide {
-    border-top: 1px solid white;
-    width: 1165px;
+    border: 2px solid white;
+    width: 80%;
     padding: 20px;
     height: auto;
     margin: auto;
     text-align: center;
     display: block;
-    
+    margin-bottom: 20px;
     background-color: aliceblue;
     background-image: linear-gradient(to right, rgb(181, 231, 237), rgb(195, 234, 236));
 }
@@ -181,13 +185,13 @@ li {
 
 body {
     background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
-    padding-top: 200px;
+    padding-top: 120px;
     height: auto;
 }
 
 @media (max-width: 920px) {
     body {
-        padding-top: 250px;
+        padding-top: 265px;
     }
       
   }

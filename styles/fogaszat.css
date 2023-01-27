@@ -2,14 +2,15 @@
 
 .main-body {
     height: auto;
-    width: 70%;
-    padding: 20px 100px 100px 100px;
+    width: 80%;
+    padding: 20px;
     background-color: rgb(214, 243, 243);
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .cim {
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 48px;
     text-align: center;
 
@@ -46,19 +47,26 @@
 
 .media-content video{
     width: 450px;
+
 }
 
 .hosszu-p {
     margin: 10px;
-    padding: 0px;
+
 }
+
 
 .hosszu-p-text {
     font-size: 20px;
+    padding: 20px;
 }
 
 #cur-kep {
     width: 40%;
+}
+
+#sima-szoveg {
+  display: inline-block;
 }
 
 #kepecske {
@@ -226,7 +234,7 @@
 
 
   #tomes-kep {
-    width: 400px;
+    width: 90%;
     border-radius: 50%;
 }
 
@@ -264,6 +272,6 @@ body {
 
   @media (max-width: 920px){
     body {
-        padding-top: 200px;
+        padding-top: 265px;
     }
 }

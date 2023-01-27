@@ -56,14 +56,16 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 20px;
+  width: 60%;
 }
 
 .nagy-kep img {
   text-align: center;
-
+  width: 80%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  border: 2px solid black;
 }
 
 body {

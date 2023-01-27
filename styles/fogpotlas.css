@@ -1,14 +1,15 @@
 
 
 .main-body {
-    
-    padding: 10px ;
+    padding: 20px ;
     background-color: #d9f3f1;
     width: 80%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     height: auto;
+    box-shadow: 2px 3px 6px rgb(155, 153, 153);
+    margin-bottom: 20px;
 }
 
 .cim {
@@ -22,7 +23,8 @@
 }
 
 .cim-szoveg {
-    margin-top: 50px;
+    margin-top: 30px;
+    padding: 20px;
 }
 
 .cim-szoveg p {
@@ -333,4 +335,21 @@
 
   * {
     font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  @media (max-width: 920px){
+    body {
+        padding-top: 265px;
+    }
+}
+
+  @media (max-width: 500px){
+    .media-content {
+      display: inline-block;
+      width: 100%;
+    }
+    .media-content-cim {
+      width: 100%;
+    }
   }
