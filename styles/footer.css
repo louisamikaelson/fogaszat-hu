@@ -68,14 +68,26 @@
 @media (max-width: 920px) {
     .footer-box {
         justify-content: center;
+        padding-top: 5px;
 
     }
     .address {
         width: auto;
+        font-size: 18px;
     }
     .icons-copyright {
-        margin: auto;
-       
+        margin: auto;  
+    }
+    .copyright{
+        font-size: 18px;
+    }
+    .bottom-icons a{
+        font-size: 27px;
+    }
+    .tel-szam {
+        font-size: 18px;
+        margin-top: 3px;
+        text-align: center;
     }
     
       

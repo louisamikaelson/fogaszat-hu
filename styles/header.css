@@ -80,5 +80,14 @@
         margin: auto;
         padding: auto;
     }
+    .nav-row li a{
+        font-size: 18px;
+    }
+    .fo-cim{
+        font-size: 20px;
+    }
+    .nav-row {
+        margin-bottom: 5px;
+    }
       
   }
